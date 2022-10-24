@@ -15,7 +15,7 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-   
+import "./Dashboard.css" 
 
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
@@ -119,7 +119,9 @@ function DashboardContent() {
               }}
             >
               <MenuIcon />
+              
             </IconButton>
+           
             <Typography
               component="h1"
               variant="h6"
@@ -127,6 +129,7 @@ function DashboardContent() {
               noWrap
               sx={{ flexGrow: 1 }}
             >
+              
               Inventory Management System
             </Typography>
             <IconButton color="inherit">
@@ -146,6 +149,7 @@ function DashboardContent() {
             }}
           >
             <IconButton onClick={toggleDrawer}>
+            <img src={require('./icon.png')} width="30" height="30"  />
               <ChevronLeftIcon />
             </IconButton>
           </Toolbar>
