@@ -149,7 +149,7 @@ function DashboardContent() {
             }}
           >
             <IconButton onClick={toggleDrawer}>
-            <img src={require('./icon.png')} width="30" height="30"  />
+            <img src={require('./icon.png')} width="30" height="30" alt='icon' />
               <ChevronLeftIcon />
             </IconButton>
           </Toolbar>
