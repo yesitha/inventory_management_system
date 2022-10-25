@@ -1,7 +1,7 @@
 #root > div > div > main > div.MuiContainer-root.MuiContainer-maxWidthLg.css-1f2kw6w-MuiContainer-root > coloumn > row:nth-child(3) > div > div > div > table{
 
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
+    display: block !important;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
     
 }
